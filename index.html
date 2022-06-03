@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        fieldset{
+            width: 20%;
+            margin: 0 auto;
+        }
+        fieldset p {
+            font-size: 0.9rem;
+        }
+    </style>
+    <h1 id="hOne"> WELCOME STRANGER</h1>
+  <button id="change"> CHANGE COLOR</button>
+  <button id="newD"> SHOW DATE</button>
+  <p id="para"></p>
+   <fieldset>
+       <legend> CALCULATOR </legend>
+       <p>Value1<input type="text" maxlength="10" id="fVal"></p>
+       <select name="" id="oper">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+       <p>Value2 <input type="text" name="number" id="sVal" maxlength="10"></p>
+       
+       
+       <button onclick="cal()">Calculate</button>
+       <div  id="result" ></div>
+   </fieldset>
+
+   
+
+    
+    
+    
+</body>
+<script src="./test.js"></script>
+</html>
